@@ -24,7 +24,7 @@ Create a Mahjong-style game using Python and Pygame. In this game, the objective
 
 ## Pseudo Code
 ```python
-#import necessary packages
+# import necessary packages
 # Initialize Pygame
 # Define constants (e.g., screen size, tile size, images)
 # Create a function to set up the game board
