@@ -105,6 +105,9 @@ def drawIcon(shape, color, boxx, boxy):
             pygame.draw.line(DISPLAYSURF, color, (left+i, top+BOXSIZE-1), (left+BOXSIZE-1, top+i))
     elif shape == OVAL:
         pygame.draw.ellipse(DISPLAYSURF, color, (left, top+quarter, BOXSIZE, half))
+    elif shape == DONUT:
+        pygame.draw.circle(DISPLAYSURF, color, (left+half, top+half), half-5)
+        pygame.draw.circle(DISPLAYSURF, BGCOLOR, (left+half, top+half), quarter-5)
 
 # draw the board
 def drawBoard(board, revealed):
