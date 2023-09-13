@@ -22,30 +22,17 @@ Create a Mahjong-style game using Python and Pygame. In this game, the objective
 5. When all pairs are matched, display a win message.
 6. Offer an option to reset the game.
 
-## Example Code Structure
+## Pseudo Code
 ```python
-import pygame
-import random
-
+#import necessary packages
 # Initialize Pygame
-pygame.init()
-
 # Define constants (e.g., screen size, tile size, images)
-
 # Create a function to set up the game board
-
 # Create a function to handle tile selection and matching
-
 # Create a function to check for a win condition
-
 # Main game loop
-
 # Event handling (e.g., mouse clicks)
-
 # Draw the game board and tiles
-
 # Display the timer
-
 # Check for a win condition
-
 # Reset the game when the player wins or chooses to restart
